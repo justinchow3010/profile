@@ -11,13 +11,13 @@ export const Projects = () => {
             url: "https://github.com/justinchow3010/CheckPill"
         },
         {
-            title: "E-commerce Wesbite",
-            description: "A wesbite that simualtes a real eshop",
+            title: "E-commerce Website",
+            description: "A website that simulates a real eshop",
             url: "https://github.com/justinchow3010/Web-Shop"
         },
         {
             title: "Global Weather",
-            description: "A wesbite that helps you check the weather globally",
+            description: "A website that helps you check the weather globally",
             url: "https://github.com/justinchow3010/GlobalWeatherWeb"
         },
         {
@@ -39,8 +39,8 @@ export const Projects = () => {
                 <p className="description">I create websites and mobile applications.</p>
                 <Row>
                     {
-                        projectInfo.map((item, index) => (
-                            <ProjectCard key={index} title={item.title} description={item.description} url={item.url}/>
+                        projectInfo.map((item) => (
+                            <ProjectCard key={item.title} title={item.title} description={item.description} url={item.url}/>
                         ))
                     }
                     <span className="description">

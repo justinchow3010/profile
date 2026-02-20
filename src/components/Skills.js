@@ -38,8 +38,8 @@ export const Skills = () => {
                 {/* <img src={reactLogo} alt="react" className="skill-logo"></img> */}
                 <Row>
                     {
-                        skillInfo.map((item, idx) => (
-                            <Col size={12} sm={6} md={6} className="my-3 d-flex justify-content-center" key={idx}>
+                        skillInfo.map((item) => (
+                            <Col size={12} sm={6} md={6} className="my-3 d-flex justify-content-center" key={item.title}>
                                 <Row>
                                     <Col size={12} sm={6} md={6} className="skill-name">{item.title}</Col>
                                     <Col size={12} sm={6} md={6}>
