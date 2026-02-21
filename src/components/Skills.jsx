@@ -5,27 +5,27 @@ export const Skills = () => {
     const skillInfo = [
         {
             title: "JavaScript",
-            percentage: "80"
+            percentage: 80
         },
         {
             title: "React.js",
-            percentage: "80"
+            percentage: 80
         },
         {
             title: "Python",
-            percentage: "80"
+            percentage: 80
         },
         {
             title: "Java",
-            percentage: "65"
+            percentage: 65
         },
         {
             title: "SQL",
-            percentage: "70"
+            percentage: 70
         },
         {
             title: "BootStrap",
-            percentage: "60"
+            percentage: 60
         },
         
     ]
@@ -39,13 +39,15 @@ export const Skills = () => {
                 <Row>
                     {
                         skillInfo.map((item) => (
-                            <Col size={12} sm={6} md={6} className="my-3 d-flex justify-content-center" key={item.title}>
-                                <Row>
+                            <Col size={12} sm={6} md={6} className="my-3 d-flex justify-content-center skill-col" key={item.title}>
+                                <Row className="align-items-center w-100">
                                     <Col size={12} sm={6} md={6} className="skill-name">{item.title}</Col>
-                                    <Col size={12} sm={6} md={6}>
-                                        <ProgressBar
-                                            completed={item.percentage}
-                                        />
+                                    <Col size={12} sm={6} md={6} className="d-flex justify-content-center">
+                                        <div className="progress-wrapper">
+                                            <ProgressBar
+                                                completed={Number(item.percentage)}
+                                            />
+                                        </div>
                                     </Col>
                                 </Row>
                             </Col>
