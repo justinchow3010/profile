@@ -25,11 +25,6 @@ export const Projects = () => {
             description: "A mobile app for you to track the status of your own tasks",
             url: "https://github.com/justinchow3010/Task-Tracker"
         },
-        {
-            title: "Character Generator",
-            description: "A NFT character generator",
-            url: "https://github.com/justinchow3010/character-generator"
-        },
     ]
 
     return (

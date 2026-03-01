@@ -5,7 +5,7 @@ export const Footer = () => {
     return (
         <div className="footer py-3">
             <Container className="text-center">
-                <span>Built with React and ❤️</span>
+                <span>Be what you want to be.</span>
             </Container>
         </div>
     )

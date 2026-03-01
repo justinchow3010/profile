@@ -19,7 +19,8 @@ export const Banner = () => {
                         loop >
                     </Typed>
                 </h3>
-                <p className="description">A software engineer from Hong Kong. I major in information engineering and minor in computer science at CUHK. Passionate about learning and changing things around. Welcome to my playground to learn more about me.</p>
+                <p className="description">A software engineer from Hong Kong. I major in information engineering and minor in computer science at CUHK. Passionate about learning and changing things around.</p>
+                <p className="description">Welcome to my playground.</p>
             </Container>
 
         </div>

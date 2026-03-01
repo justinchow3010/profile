@@ -4,6 +4,14 @@ import ProgressBar from "./ProgressBar";
 export const Skills = () => {
     const skillInfo = [
         {
+            title: "Java",
+            percentage: 80
+        },
+        {
+            title: "Python",
+            percentage: 80
+        },
+        {
             title: "JavaScript",
             percentage: 80
         },
@@ -12,22 +20,21 @@ export const Skills = () => {
             percentage: 80
         },
         {
-            title: "Python",
-            percentage: 80
-        },
-        {
-            title: "Java",
-            percentage: 65
+            title: "Generative AI",
+            percentage: 75
         },
         {
             title: "SQL",
             percentage: 70
         },
         {
-            title: "BootStrap",
-            percentage: 60
+            title: "System Design",
+            percentage: 70
         },
-        
+        {
+            title: "DevOps",
+            percentage: 70
+        }
     ]
 
     return (
