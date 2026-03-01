@@ -14,10 +14,10 @@ export const Contact = () => {
                     <div style={{flex: "0 0 100%"}} className="p-2">
                         Looking for Software Engineer opportunities
                     </div>
-                    <a href="https://www.linkedin.com/in/justin-chow-41638b1bb/" target={"_blank"}>
-                        <img src={Linkedin} alt="lnkedin" className="icon" />
+                    <a href="https://www.linkedin.com/in/justin-chow-41638b1bb/" target="_blank" rel="noopener noreferrer">
+                        <img src={Linkedin} alt="linkedin" className="icon" />
                     </a>
-                    <a href="https://github.com/justinchow3010" target={"_blank"}>
+                    <a href="https://github.com/justinchow3010" target="_blank" rel="noopener noreferrer">
                         <img src={GitHub} alt="github" className="icon" />
                     </a>
                     <a href="mailto:justinchow3010@gmail.com">

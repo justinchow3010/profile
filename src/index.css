@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Progress bar responsive wrapper */
+.progress-wrapper {
+  width: 220px;
+  max-width: 70vw;
+}
+
+/* Ensure skill column stacks nicely on small screens */
+.skill-col .skill-name {
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  .skill-col {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skill-col .skill-name {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .progress-wrapper {
+    width: 70vw;
+  }
+}
